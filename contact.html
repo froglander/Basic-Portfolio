@@ -2,41 +2,48 @@
 <html>
 <head>
 	<title>Basic Portfolio-Contact</title>
+	<link rel="stylesheet" href="assets/css/reset.css" type="text/css">
+	<link rel="stylesheet" href="assets/css/style.css" type="text/css">
 </head>
 <body>
-	<header>Kristina Heredia</header>
-	<nav>
-		<ul>
-			<li><a href="index.html">About</a></li>
-			<li><a href="portfolio.html">Portfolio</a></li>
-			<li><a href="contact.html">Contact</a></li>
-		</ul>
-	</nav>
-	<div>
-		<section>
-			<h1>Contact</h1>			
-			<form>
-				<p>Name</p>
-				<input type="text" name="contactname">
-				<p>Email</p>
-				<input type="text" name="email">
-				<p>Message</p>
-				<textarea rows="10" cols="50"></textarea>
-				<br />
-				<input type="submit" value="Submit">
-		</section>
-		<aside>
-				<h2>Connect with Me</h2>
-				<a href="https://github.com/froglander">
-				<img src="assets/images/logo-github.png" alt="Github" /></a>
-				<a href="https://www.linkedin.com/in/kristina-heredia-11500914">
-				<img src="assets/images/logo-linkedin.png" alt="Github" /></a>
-				<a href="http://stackoverflow.com/users/1506925/froglander">
-				<img src="assets/images/logo-stackoverflow.png" alt="Github" /></a>
-			</aside>
-		<footer>
-			Copyright 2016
-		</footer>
-	</div>
-</body>
+		<div class="wrapper">
+			<header>
+				<h1 class="name">Kristina Heredia</h1>			
+				<nav>
+					<a href="index.html">About</a> |
+					<a href="portfolio.html">Portfolio</a> |
+					<a href="contact.html">Contact</a>
+				</nav>
+			</header>
+			<div class="main_content">
+				<section>
+					<h1>Contact</h1>			
+					<form>
+						<p>Name</p>
+						<input type="text" name="contactname">
+						<p>Email</p>
+						<input type="text" name="email">
+						<p>Message</p>
+						<textarea rows="10" cols="50"></textarea>
+						<br />
+						<input type="submit" value="Submit">
+				</section>
+				<aside>
+					<div class="social_media">
+						<h2>Connect with Me</h2>				
+						<a href="https://github.com/froglander">
+						<img class="icon" src="assets/images/logo-github.png" alt="Github" /></a>
+						<a href="https://www.linkedin.com/in/kristina-heredia-11500914">
+						<img class="icon" src="assets/images/logo-linkedin.png" alt="Github" /></a>
+						<a href="http://stackoverflow.com/users/1506925/froglander">
+						<img class="icon" src="assets/images/logo-stackoverflow.png" alt="Github" /></a>
+					</div>
+				</aside>
+				<div class="push"></div>
+			</div>		
+			<footer>
+				<p>&copy;Copyright 2016 Kristi Heredia</p>
+			</footer>
+		</div>
+	</body>
 </html>

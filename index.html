@@ -2,34 +2,43 @@
 <html>
 	<head>
 		<title>Basic Portfolio-About Me</title>
+		<link rel="stylesheet" href="assets/css/reset.css" type="text/css">
+		<link rel="stylesheet" href="assets/css/style.css" type="text/css">
 	</head>
 	<body>
-		<header>Kristina Heredia</header>
-		<nav>
-			<ul>
-				<li><a href="index.html">About</a></li>
-				<li><a href="portfolio.html">Portfolio</a></li>
-				<li><a href="contact.html">Contact</a></li>
-			</ul>
-		</nav>
-		<div>
-			<section>
-				<h1>About Me</h1>
-				<img src="assets/images/kristi.jpg" alt="A pic of me" />
-				<p>A bunch of text about me</p>
-			</section>
-			<aside>
-				<h2>Connect with Me</h2>
-				<a href="https://github.com/froglander">
-				<img src="assets/images/logo-github.png" alt="Github" /></a>
-				<a href="https://www.linkedin.com/in/kristina-heredia-11500914">
-				<img src="assets/images/logo-linkedin.png" alt="Github" /></a>
-				<a href="http://stackoverflow.com/users/1506925/froglander">
-				<img src="assets/images/logo-stackoverflow.png" alt="Github" /></a>
-			</aside>
+		<div class="wrapper">
+			<header>
+				<h1 class="name">Kristina Heredia</h1>			
+				<nav>
+					<a href="index.html">About</a> |
+					<a href="portfolio.html">Portfolio</a> |
+					<a href="contact.html">Contact</a>
+				</nav>
+			</header>
+			<div class="main_content">
+				<section>
+					<h1 class="about">About Me</h1>				
+					<img class="about" src="assets/images/kristi.jpg" alt="A pic of me" />
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis iaculis tempus dui ut finibus. Cras at velit dapibus, vehicula ex finibus, sagittis lorem. Nullam condimentum cursus ex vitae sollicitudin. Morbi justo nibh, pharetra non facilisis nec, congue at ante. Donec gravida libero ac erat pretium, sed condimentum sem lobortis. Donec quis posuere massa. Mauris ullamcorper non erat facilisis consectetur.</p>
+					<p>Suspendisse maximus lacus eu lectus ullamcorper mattis. Ut tincidunt rhoncus metus et facilisis. Duis sed tristique ligula, nec placerat mi. Vivamus dignissim neque vitae ipsum vehicula gravida. Ut suscipit neque nibh, quis commodo risus condimentum rhoncus. Nulla sit amet dui odio. Sed lacus eros, finibus ac quam quis, eleifend pretium est. </p>
+				</section>
+				<aside>
+					<div class="social_media">
+						<h2>Connect with Me</h2>				
+						<a href="https://github.com/froglander">
+						<img class="icon" src="assets/images/logo-github.png" alt="Github" /></a>
+						<a href="https://www.linkedin.com/in/kristina-heredia-11500914">
+						<img class="icon" src="assets/images/logo-linkedin.png" alt="Github" /></a>
+						<a href="http://stackoverflow.com/users/1506925/froglander">
+						<img class="icon" src="assets/images/logo-stackoverflow.png" alt="Github" /></a>
+					</div>
+				</aside>
+				<div class="push"></div>
+			</div>		
 			<footer>
-				Copyright 2016
+				<p>&copy;Copyright 2016 Kristi Heredia</p>
 			</footer>
 		</div>
+		
 	</body>
 </html>

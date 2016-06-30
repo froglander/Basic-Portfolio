@@ -171,34 +171,26 @@ img.portfolio-right {
 	width: 325px;
 	float: left;
 }
-h3.left { 
-   position: absolute; 
-   top: 145px; 
-   left: 50px; 
-   background-color: #4aaaa5;
-   background-color: rgba(74, 170, 165, 0.78);
-   width: 250px; 
-   height: 40px;
-   text-align: center;
-   padding-top: 20px;
-   font-family: 'Georgia', Times, 'Times New Roman', serif;
-   color: #ffffff;
-}
 
-h3.right { 
-   position: absolute; 
-   top: 145px; 
-   left: 25px; 
-   background-color: #4aaaa5;
-   background-color: rgba(74, 170, 165, 0.78);
-   width: 250px; 
-   height: 40px;
-   text-align: center;
-   padding-top: 20px;
-   font-family: 'Georgia', Times, 'Times New Roman', serif;
-   color: #ffffff;
+.portfolio-image h3{
+ 	position: absolute; 
+	top: 145px; 	   
+	background-color: #4aaaa5;
+	background-color: rgba(74, 170, 165, 0.78);
+	width: 250px; 
+	height: 40px;
+	text-align: center;
+	padding-top: 20px;
+	font-family: 'Georgia', Times, 'Times New Roman', serif;
+	color: #ffffff;
 }
-h3:hover {
+.portfolio-image h3.left {
+	left: 50px;
+}
+.portfolio-image h3.right {
+	left: 25px;
+}
+.portfolio-image h3:hover {
 	background-color: rgba(74, 170, 165, 1);
 }
 /**************************************/

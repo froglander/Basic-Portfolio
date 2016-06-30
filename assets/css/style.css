@@ -48,6 +48,7 @@ ul.navbar li {
 ul.navbar a {
 	text-decoration: none;
 	padding: 0 10px 0 10px;
+	color: #777777;
 }
 ul.navbar a:visited {
 	color: #777777;

@@ -12,12 +12,12 @@ body {
 }
 header {
 	background-color: #ffffff;	
-	border-bottom: solid 2px #cccccc;	
+	border: solid 2px #cccccc;	
 }
 nav {
 	background-color: white;
 	margin: 0;
-	overflow: hidden;
+	/*overflow: hidden;*/	/*Not sure why I added this, doesn't seem to affect anything*/
 	display: inline-block;
 	float: right;
 	line-height: 5.25;
@@ -140,10 +140,11 @@ footer p {
 }
 /**************************************/
 /* 			Sticky footer 		      */
+/* by Ryan Fait http://ryanfait.com/  */
 /**************************************/
 .wrapper {
 	min-height: 100%;
-	height: auto !important;
+	/*height: auto !important;*/ /*Not sure where I got this line from so commented it out*/
 	height: 100%;
 	margin: 0 auto -100px;
 }
@@ -155,14 +156,14 @@ footer, .push {
 /**************************************/
 img.portfolio-left {
 	width: 250px;
-	padding: 32px 25px 32px 50px;
-	float: left;
+	padding: 25px 25px 25px 50px;
+	/*float: left;*/
 }
 
 img.portfolio-right {
 	width: 250px;
-	padding: 32px 50px 32px 25px;
-	float: left;
+	padding: 25px 50px 25px 25px;
+	/*float: left;*/
 }
 .portfolio-image {
 	position: relative;
@@ -171,7 +172,7 @@ img.portfolio-right {
 }
 h3.left { 
    position: absolute; 
-   top: 150px; 
+   top: 145px; 
    left: 50px; 
    background-color: #4aaaa5;
    background-color: rgba(74, 170, 165, 0.78);
@@ -185,7 +186,7 @@ h3.left {
 
 h3.right { 
    position: absolute; 
-   top: 150px; 
+   top: 145px; 
    left: 25px; 
    background-color: #4aaaa5;
    background-color: rgba(74, 170, 165, 0.78);
